@@ -36,7 +36,6 @@ def convert(lines): # 格式轉換
 			else:
 				for m in s[2:]:
 					viki_word_count += len(m)
-
 	print('Allen說了', allen_word_count, '個字,傳了', allen_sticker_count, '個貼圖及', allen_pictuure_count, '張圖片')
 	print('Viki說了', viki_word_count, '個字,傳了', viki_sticker_count, '個貼圖及', viki_pictuure_count, '張圖片')
 
